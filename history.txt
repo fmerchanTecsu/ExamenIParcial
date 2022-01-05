@@ -1,0 +1,377 @@
+    1  git version
+    2  git config --global AlexanderCuadrado
+    3  git config --global roberto.cuadrado@tecsu.edu.ec
+    4  git config --global user.name Alexander Cuadrado
+    5  git config --global user.email roberto.cuadrado@tecsu.edu.ec
+    6  git config --list
+    7  git config --global user.name AlexanderCuadrado
+    8  git config --global user.name AlexanderCuadrado --replace
+    9  git config --list
+   10  git config --global --unset user.name
+   11  git config --global --unset user.name Alexander
+   12  git config --global --replace-all user.name AlexanderCuadrado
+   13  git config --list
+   14  cd Templates/
+   15  cd Templates
+   16  ls
+   17  cd C/Users/FMR/Templates
+   18  cd c
+   19  cd /c/Users/FMR/Templates
+   20  cd /c
+   21  ls
+   22  cd Usuarios
+   23  cd Users
+   24  cd FMR
+   25  ls
+   26  ls
+   27  cd ..
+   28  cd template
+   29  ls
+   30  pwd
+   31  ls -l
+   32  git init
+   33  ls -la
+   34  git status
+   35  git add .
+   36  git status
+   37  git commit -m "First commit"
+   38  cd ..
+   39  cd scoring_supermarket
+   40  ls
+   41  git init
+   42  git add .
+   43  git commit -m "Commit DS Team"
+   44  rm init.py.txt init.py
+   45  mv init.py.txt init.py
+   46  ls
+   47  ls
+   48  git status
+   49  mv init.py.txt init.py
+   50  mv start.sh.txt start.sh
+   51  ls
+   52  git status
+   53  git add .
+   54  git commit "Commit DS Team"
+   55  git commit "Commit DS Team 1"
+   56  git status
+   57  git commit -m "Commit DS Team"
+   58  git status
+   59  cd ..
+   60  cd Templates
+   61  cd Template
+   62  ls
+   63  touch script.py
+   64  ll
+   65  vi script.py
+   66  git diff -r HEAD
+   67  git add script.py
+   68  git diff -r HEAD
+   69  git log
+   70  git commit -m "Second Commit"
+   71  git log script.py
+   72  git log README.md
+   73  git log README.md.txt
+   74  git show cd917de
+   75  touch .gitignore
+   76  vi .gitignore
+   77  mkdir credentials
+   78  cd credentials
+   79  touch passwords.txt
+   80  git add .
+   81  cd ..
+   82  ls
+   83  ll
+   84  ll
+   85  ls
+   86  ll
+   87  git add .
+   88  git commit -m "Creacion de gitignore"
+   89  ll
+   90  ls
+   91  ll
+   92  ls -la
+   93  history
+   94  touch pipeline.py
+   95  rm pipeline.py
+   96  ls
+   97  mv pipeline.py.txt pipeline.py
+   98  git add .
+   99  git commit -m "aprendiendo a deshacer"
+  100  git add script.py
+  101  git reset HEAD script.py
+  102  git checkout -- script.py
+  103  git add script.py
+  104  git reset HEAD script.py
+  105  git checkout -- script.py
+  106  cd ..
+  107  cd data_governance
+  108  touch init.py
+  109  touch. requeriments.txt
+  110  touch requeriments.txt
+  111  touch start.sh
+  112  ls
+  113  git init
+  114  git add .
+  115  git commit -m "Commit Data Governance"
+  116  git add requeriments.txt
+  117  git commit -m "Commit 2"
+  118  git add start.sh
+  119  git commit -m "Commit 3"
+  120  mkdir credentials
+  121  touch .gitignore.txt
+  122  git rm -r --cached /c/data_governance/credentials
+  123  git rm -r --cached --ignore--unmatch credentials
+  124  git rm -r --cached --ignore-unmatch credentials
+  125  git add init.py
+  126  git reset HEAD init.py
+  127  git log
+  128  git checkout abf8df5fa087f18b873b3110497831c88b149125
+  129  git add .
+  130  git commit -m "regreso"
+  131  git checkout -- data_governance
+  132  git checkout -- 
+  133  git reset HEAD
+  134  git checkout -- 
+  135  git checkout abf8df5fa087f18b873b3110497831c88b149125
+  136  git checkout  98ebb902e5685a1daab134d6d2b3d7d0427a7659
+  137  history
+  138  cd desktop
+  139  history -w ~/history.txt
+  140  history >> history.txt
+  141  history
+  142  git status
+  143  git add .
+  144  git commit
+  145  git add .
+  146  git commit -m "employees txt"
+  147  git checkout -b rrhh
+  148  git add .
+  149  git commit -m "new employees"
+  150  git checkout master
+  151  git diff master rrhh
+  152  git merge master rhh
+  153  git merge master rrhh
+  154  alt text
+  155  git checkout -b development
+  156  vim projects
+  157  history
+  158  touch projects.txt
+  159  nano projects.txt
+  160  git diff master development
+  161  git diff rrhh development
+  162  git diff development master
+  163  git add .
+  164  git commit -m "Development branch"
+  165  git diff master development
+  166  git clone /template
+  167  git clone ../template
+  168  git clone https://github.com/LightTable/LightTable.git
+  169  ls
+  170  git remote
+  171  cd LightTable
+  172  git remote
+  173  cd ..
+  174  git clone https://github.com/angular/angular.git
+  175  git clone https://github.com/nrwl/nx.git
+  176  ls
+  177  cd nx
+  178  git remote add origin
+  179  git remote add origin https://github.com/nrwl/nx.git
+  180  git remote add origin nx.git
+  181  git remote
+  182  cd ..
+  183  git remote add origin
+  184  git remote add origin https://github.com/nrwl/nx.git
+  185  cd nx
+  186  git remote add https://github.com/nrwl/nx.git
+  187  cd ..
+  188  cd ..
+  189  cd Template
+  190  git remote add origin
+  191  git remote add origin Template
+  192  cd ..
+  193  cd Template_guest
+  194  cd nx
+  195  git remote add origin nx.git
+  196  git remote add origin nx
+  197  cd ..
+  198  cd ..
+  199  cd Template
+  200  git remote add origin Template
+  201  git remote add origin https://github.com/nrwl/nx.git
+  202  git remote -v
+  203  git remote add origin1 https://github.com/nrwl/nx.git
+  204  ls
+  205  git remote -v
+  206  git remote rm origin
+  207  git remote -v
+  208  cd ..
+  209  cd Template_guest
+  210  cd nx
+  211  git remote rm origin
+  212  git remote add origin https://github.com/nrwl/nx.git
+  213  cd ..
+  214  git clone https://github.com/AlexanderCuadrado/AuditoriaSoftware.git
+  215  ls
+  216  cd AuditoriaSoftware
+  217  git status
+  218  git status
+  219  git add .
+  220  git commit -m "Primer commit"
+  221  git push origin master
+  222  git push origin main
+  223  git remote 
+  224  git push origin master
+  225  git branch -a
+  226  cd ..
+  227  git clone 
+  228  ls
+  229  cd AuditoriaSoftware
+  230  git branch -a
+  231  git checkout -b master
+  232  git checkout master
+  233  git status
+  234  git add .
+  235  git commit -m "Autonoma 4"
+  236  ls
+  237  git checkout -b dev
+  238  git checkout -b qa
+  239  git checkout dev
+  240  touch stackeholders.txt
+  241  nano stackeholders.txt
+  242  git add .
+  243  git commit -m "Rama dev"
+  244  git checkout qa
+  245  touch rules.txt
+  246  nano rules.txt
+  247  git add .
+  248  git commit -m "Branch qa"
+  249  git merge qa dev
+  250  git merge qa dev -m "merge"
+  251  git status
+  252  git commit -m "merge qa y dev"
+  253  ls
+  254  git checkout master
+  255  git merge master qa -m "merge master y qa"
+  256  git branch -a
+  257  nano stackeholders.txt
+  258  git checkout -b master
+  259  git remote add origin https://github.com/AlexanderCuadrado/AuditoriaSoftware.git
+  260  git remote -v
+  261  history
+  262  git push origin master
+  263  git remote -rm origin
+  264  git -rm origin
+  265  history
+  266  git remote -v
+  267  git remote rm origin
+  268  git add origin https://github.com/AlexanderCuadrado/Laboratorio3Auditoria.git
+  269  git remote add origin https://github.com/AlexanderCuadrado/Laboratorio3Auditoria.git
+  270  git push origin master
+  271  git commit -m "push"
+  272  git status
+  273  git log
+  274  fdfsdf
+  275  mkdir friend_project
+  276  cd friend_project
+  277  git clone https://github.com/zerode15/AU_Jesus.git
+  278  git clone https://github.com/zerode15/AU_Jesus/tree/master
+  279  git clone https://github.com/zerode15/AU_Jesus/tree/master.git
+  280  history
+  281  history >> git_commands.txt
+  282  cd ..
+  283  cd friend_project
+  284  git clone https://github.com/zerode15/Laboratorio4.git
+  285  git push origin master
+  286  git add .
+  287  git commit -m "friend project"
+  288  git push origin master
+  289  ls
+  290  cd ..
+  291  git status
+  292  git add.
+  293  git add .
+  294  git commit -m "commands"
+  295  git push origin master
+  296  git status
+  297  ls
+  298  git push origin master
+  299  cd data
+  300  touch example.txt
+  301  cd ..
+  302  cd credentials
+  303  touch things
+  304  cd ..
+  305  git push origin master
+  306  git add .
+  307  git commit -m "nuevo"
+  308  git push origin master
+  309  git pull origin master
+  310  git push origin master
+  311  git push -f origin master
+  312  git status
+  313  git commit -m "last merge"
+  314  git status
+  315  mkdir quality_scripts
+  316  mkdir quality_rules
+  317  cd quality_scripts
+  318  touch example1.txt
+  319  cd ..
+  320  cd quality_rules
+  321  touch manyrules.txt
+  322  cd ..
+  323  ls
+  324  git add .
+  325  git commit -m "Fix"
+  326  git push origin master
+  327  cd ..
+  328  cd friend_project
+  329  git clone https://github.com/zerode15/Laboratorio4.git
+  330  git remote add origin https://github.com/AlexanderCuadrado/Laboratorio3Auditoria.git
+  331  git status
+  332  git init
+  333  history | grep "29/12"
+  334  history
+  335  git branch -r
+  336  git branch
+  337  git help
+  338  git clone https://github.com/AlexanderCuadrado/ExamenIParcial.git
+  339  git checkout -b Roberto
+  340  git status
+  341  git add .
+  342  git commit -m "Respuesta Pregunta 1
+
+
+  343  git status
+  344  git commit -m "Respuesta 1"
+  345  git status
+  346  git add .
+  347  git commit -m "Respuesta 2"
+  348  git status
+  349  git add .
+  350  git commit -m "Respuesta 3"
+  351  git status
+  352  git add .
+  353  git commit -m "Respuesta 4"
+  354  git status
+  355  git add .
+  356  git commit -m "Respuesta 5"
+  357  git status
+  358  git add .
+  359  git commit -m "Respuesta 6"
+  360  git status
+  361  git add .
+  362  git commit -m "Respuesta 7"
+  363  git status
+  364  git commit -m "Respuesta 8"
+  365  git add .
+  366  git commit -m "Respuesta 8"
+  367  git status
+  368  git add .
+  369  git commit -m "Respuesta 9"
+  370  git status
+  371  git add .
+  372  git commit -m "Respuesta 10"
+  373  git remote
+  374  git push origin Roberto
+  375  history >> history.txt
