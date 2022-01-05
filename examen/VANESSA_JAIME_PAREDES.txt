@@ -16,7 +16,7 @@
             <ol>
                 <li>
                     <h3>Qué es un sistema de control de versiones?</h3>
-                    [Pon tu respuesta]
+                    es una herramienta que ayuda a la gestion en los codigos
                 </li>
                 <li>
                     <h3>Cuál es la diferencia entre git y github?</h3>
