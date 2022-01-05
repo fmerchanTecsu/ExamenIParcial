@@ -43,7 +43,8 @@
                 </li>               
                 <li>
                     <h3>Qué es un repositorio?</h3>
-                    [Pon tu respuesta]
+                    Es el lugar en el que se almacena y se puede realizar la distribución del
+		    código de una aplicación o un programa
                 </li>
                 <li>
                     <h3>Cuál es la finalidad de la norma ISO 27000</h3>
