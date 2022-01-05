@@ -39,7 +39,7 @@
                 </li>
                 <li>
                     <h3>Qué características considera importante para evaluar la facilidad de instalación de un software</h3>
-                    [Pon tu respuesta]
+                    que sea seguro y confiable
                 </li>               
                 <li>
                     <h3>Qué es un repositorio?</h3>
