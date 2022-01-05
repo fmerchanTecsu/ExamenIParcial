@@ -1,0 +1,337 @@
+    1  ls -la
+    2  mv init.py.txt init.py
+    3  mv start.sh.txt start.sh 
+    4  ls -la
+    5  git status
+    6  git init
+    7  git status
+    8  git add .
+    9  git status
+   10  git commit -m "Commit  DS Team"
+   11  ls -la
+   12  ls
+   13  ls -la
+   14  mv init.py.txt init.py
+   15  mv requirements.txt.txt requirements.
+   16  mv start.sh.txt start.sh
+   17  ls -la
+   18  git config -list
+   19  git config --list
+   20  git init
+   21  ls -la
+   22  git commit -m "Commint Data Governance"
+   23  git add .
+   24  git status
+   25  ls -la
+   26  git commit -m "Commint Data Governance"
+   27  echo print("Data Governance") >> requirements.txt
+   28  echo print "Data Governance" >> requirements.txt
+   29  git add .
+   30  git commit -m "Ingreso de texto"
+   31  git status
+   32  git status
+   33  echo "Data Governance Team" >> start.sh
+   34  git add .
+   35  git status
+   36  git commit -m "Ingreso de datos Start"
+   37  mkdir credentials
+   38  git status
+   39  ls
+   40  rm credentials
+   41  ls
+   42  ls
+   43  mkdir credentials
+   44  touch .gitignore
+   45  git add .
+   46  git status
+   47  echo Kenny Baque >> init.py
+   48  git add .
+   49  git status
+   50  git reset HEAD init.py
+   51  git cheackout --script.py
+   52  git cheackout --init.py
+   53  git checkout --init.py
+   54  git checkout -- init.py
+   55  dir
+   56  ls
+   57  ls -l
+   58  git init
+   59  ll
+   60  ls -la
+   61  ls -la
+   62  mv README.md.txt README.md
+   63  ls -la
+   64  git status
+   65  git add .
+   66  git status
+   67  git commit -m "First commit"
+   68  ls -la
+   69  git diff script.py
+   70  git diff -r HEAD
+   71  git add script.py
+   72  git diff -r HEAD
+   73  git log
+   74  git commit -m "Second commit"
+   75  git log
+   76  git log script.py
+   77  ls
+   78  git add script.py
+   79  git diff -r HEAD
+   80  git add script.py
+   81  git log
+   82  touch script.py
+   83  ls
+   84  git add script.py
+   85  ls
+   86  git diff -r HEAD
+   87  git log
+   88  git commit -m "Second commit"
+   89  git log
+   90  touch .gitignore
+   91  ls
+   92  edit .gitignore
+   93  ls
+   94  ll -al
+   95  mkdir credentials
+   96  cd credentials
+   97  touch passwords.txt
+   98  git add .
+   99  git commit -m "Creacion  archivo .gitignored"
+  100  touch pipeline.py
+  101  ls
+  102  rv pipeline.py
+  103  rm pipeline.py
+  104  ls
+  105  cd
+  106  cd /c/Template
+  107  ls
+  108  touch pipeline.py
+  109  ls
+  110  cd pipeline.py
+  111  echo import pandas as pd >> pipeline.py
+  112  ls
+  113  git add pipeline.py
+  114  git status
+  115  git add .
+  116  git status
+  117  touch requirements.txt
+  118  ls
+  119  echo pip3 install pandas >> requirements.txt
+  120  git add .
+  121  ls
+  122  git status
+  123  git commit -m "Aprendiendo a deshacer"
+  124  ls
+  125  echo import pandas as p >> script.py
+  126  git add .
+  127  git status
+  128  git reset HEAD script.py
+  129  git checkout -- script.py
+  130  git version
+  131  git config --global kenny.baque
+  132  git config --global kenny.baque@tecsu.edu.ec
+  133  git config --global user.name kenny.baque
+  134  git config --global user.email kenny.baque
+  135  git config --global user.email kenny.baque@tecsu.edu.ec
+  136  git config --list
+  137  cd Templates/
+  138  cd..
+  139  dir
+  140  git --list
+  141  cd /c/
+  142  dir
+  143  ls -la
+  144  ls -la
+  145  git commit -m "creacion de archivo"
+  146  git add .
+  147  git status
+  148  git branch rrhh
+  149  git checkout master
+  150  git checkout -b rrhh
+  151  git branch
+  152  git commit -m "branch y modificacion txt"
+  153  git checkout rrhh
+  154  git checkout master
+  155  git diff master rrhh
+  156  git merge master rrhh
+  157  alt text
+  158  git checkout -b desarrollo
+  159  git add desarrollo.txt
+  160  touch desarrollo.txt
+  161  ls
+  162  echo ingreso texto prueba >> desarrollo.txt
+  163  git checkout master
+  164  git clone ../template
+  165  git clone https://github.com/LightTable/LightTable.git
+  166  git remote https://github.com/LightTable/LightTable.git
+  167  cd
+  168  git remote https://github.com/LightTable/LightTable.git
+  169  cd Template_guest
+  170  ls
+  171  git remote -v
+  172  git clone https://github.com/KennyBaque/auditoria_KB.git
+  173  git remote
+  174  touch prueba.txt
+  175  ls
+  176  touch prueba.txt
+  177  git push origin main
+  178  git add .
+  179  git status
+  180  git commit -m "prueba"
+  181  git push origin main
+  182  git push origin main
+  183  git remote
+  184  git remote add origin
+  185  git push origin main
+  186  touch prueba2.txt
+  187  git add .
+  188  git status
+  189  git commit -m "segunda prueba"
+  190  git remote
+  191  git  remote origin https://github.com/KennyBaque/auditoria_KB.git
+  192  git  remote origi https://github.com/KennyBaque/auditoria_KB.git
+  193  git init
+  194  git commit -m "inicio"
+  195  git add .
+  196  git status
+  197  git commit -m "inicio"
+  198  head
+  199  ls
+  200  ls
+  201  git status
+  202  git add .
+  203  echo Data Quality >> requirements.txt 
+  204  git add .
+  205  git commit -m "primer cambio"
+  206  echo Data Quality team >> start.sh 
+  207  git add .
+  208  git commit -m "segundo cambio"
+  209  mkdir credentials
+  210  touch .gitignore
+  211  ls
+  212  git add .
+  213  ls
+  214  echo kenny baque >> init.py 
+  215  git add .
+  216  git status
+  217  git commit -m "cambios en init"
+  218  git reset HEAD init.py
+  219  git checkout -- init.py
+  220  git log
+  221  git log
+  222  fgit checkout 3272504318c2ddbb434d74c61cdb458b300a7618
+  223  git checkout 3272504318c2ddbb434d74c61cdb458b300a7618
+  224  git checkout master
+  225  git branch qa
+  226  git branch -b dev
+  227  git checkout -b dev
+  228  touch stackeholders.txt
+  229  nano stackeholders.txt 
+  230  git checkout qa
+  231  touch rules.txt
+  232  nano rules.txt 
+  233  git merch qa dev -m "fucion qa a dev"
+  234  git merge qa dev -m "fucion qa a dev"
+  235  git checkout master
+  236  git merge master qa -m "fucion master a qa"
+  237  git branch -a
+  238  git add origin https://github.com/KennyBaque/Lab4_auditoria.git
+  239  git add remote origin https://github.com/KennyBaque/Lab4_auditoria.git
+  240  git remote origin https://github.com/KennyBaque/Lab4_auditoria.git
+  241  git remote
+  242  git remote origin https://github.com/KennyBaque/Lab4_auditoria.git
+  243  git remote add origin origin https://github.com/KennyBaque/Lab4_auditoria.git
+  244  git remote add origin https://github.com/KennyBaque/Lab4_auditoria.git
+  245  git push origin main
+  246  git push origin master
+  247  git remote add origin https://github.com/KennyBaque/lab4_audi.git
+  248  git remove rm origin
+  249  git remote add origin https://github.com/KennyBaque/lab4_audi.git
+  250  git remote rm origin
+  251  git remote add origin https://github.com/KennyBaque/lab4_audi.git
+  252  git push origin master
+  253  ls
+  254  mkdir friend_project
+  255  cd friend_project/
+  256  git clone https://github.com/VanessaJaime/Autonomo4_VNJP.git
+  257  git add .
+  258  git push origin master
+  259  git status
+  260  git add .
+  261  git push origin master
+  262  cd ..
+  263  git status
+  264  git add .
+  265  git push origin master
+  266  cd friend_project/
+  267  git commit -m "carpeta friends"
+  268  git status
+  269  ls
+  270  history >> git_commands.txt
+  271  ls
+  272  git status
+  273  git add .
+  274  git status
+  275  git commit -m "txt de comandos"
+  276  ls
+  277  git push origin master
+  278  cd ..
+  279  ls
+  280  cd credentials/
+  281  touch ejemplo.txt
+  282  git add .
+  283  git status
+  284  git push origin master
+  285  git commit -m "archivo de ejemplo"
+  286  git push origin master
+  287  history
+  288  history
+  289  git clone https://github.com/fmerchanTecsu/ExamenIParcial.git
+  290  git checkout -b kenny_baque
+  291  git checkout -b kenny
+  292  git init
+  293  git checkout -b kenny_baque
+  294  ls
+  295  cd ExamenIParcial/
+  296  ls
+  297  cd examen/
+  298  git checkout -b kenny_baque
+  299  git checkout -b kenny
+  300  git branch -d kenny
+  301  git checkout
+  302  git checkout kenny_baque
+  303  git branch -d kenny
+  304  git branch -d kenny_baque
+  305  ls
+  306  nano KENNY_BAQUE.html 
+  307  git commit -m "respuesta pregunta 1"
+  308  git add .
+  309  git commit -m "respuesta pregunta 1"
+  310  nano KENNY_BAQUE.html 
+  311  git add .
+  312  git commit -m "respuesta pregunta 2"
+  313  nano KENNY_BAQUE.html 
+  314  git add .
+  315  git commit -m "respuesta pregunta 3"
+  316  nano KENNY_BAQUE.html 
+  317  git add .
+  318  git commit -m "respuesta pregunta 4"
+  319  nano KENNY_BAQUE.html 
+  320  git add .
+  321  git commit -m "respuesta pregunta 5"
+  322  nano KENNY_BAQUE.html 
+  323  git add .
+  324  git commit -m "respuesta pregunta 6"
+  325  nano KENNY_BAQUE.html 
+  326  git add .
+  327  git commit -m "respuesta pregunta 7"
+  328  nano KENNY_BAQUE.html 
+  329  git add .
+  330  git commit -m "respuesta pregunta 8"
+  331  nano KENNY_BAQUE.html 
+  332  git add .
+  333  git commit -m "respuesta pregunta 9"
+  334  nano KENNY_BAQUE.html 
+  335  git add .
+  336  git commit -m "respuesta pregunta 10"
+  337  history >> Kenny_baque.txt
