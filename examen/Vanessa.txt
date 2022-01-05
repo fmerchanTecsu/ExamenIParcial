@@ -1,0 +1,356 @@
+    1  git version
+    2  git config --global vanessa.jaime
+    3  git config --global vanessa.jaime@tecsu.edu.ec
+    4  git config --global user.name vanessa.jaime
+    5  git config --global user.email vanessa.jaime
+    6  git config --list
+    7  git config --global user.email vanessa.jaime@tecsu.edu.ec
+    8  git config --list
+    9  mv README.md.txt README.md
+   10  git add.
+   11  git add
+   12  git status
+   13  git add .
+   14  git commit -m "First commit"
+   15  git init
+   16  git status
+   17  git add .
+   18  git status
+   19  git commit -m "First commit"
+   20  git init
+   21  git status
+   22  mv init.py.txt init.py
+   23  mv start.sh.txt start.sh
+   24  git status
+   25  git add .
+   26  git status
+   27  git commit -m "Commit DS Team"
+   28  touch script.py
+   29  git add scrit.py
+   30  git init
+   31  git status
+   32  git add .
+   33  git status
+   34  git add script.py
+   35  ls
+   36  fit diff -r HEAD
+   37  git diff -r HEAD
+   38  git log
+   39  git commit -m "Second commit"
+   40  git log
+   41  touch .gitignore
+   42  edit .gitignore
+   43  ls
+   44  ll -al
+   45  mkdir credentials
+   46  touch passwords.txt
+   47  git add .
+   48  git commit -m "Creacion archivo .gitinored"
+   49  git init
+   50  git status
+   51  git add .
+   52  git status
+   53  mv pipelyne.py.txt pipelyne.py
+   54  git status
+   55  git add pipelyne.py
+   56  git status
+   57  git restore pipelyne.py.txt
+   58  git status
+   59  git status
+   60  ls
+   61  git diff -r HEAD
+   62  git log
+   63  git commit -m "Aprendiendo a deshacer"
+   64  git log
+   65  ls
+   66  git status
+   67  git init
+   68  git status
+   69  git add pipelyne.py
+   70  git add requirements.txt
+   71  git add script.py
+   72  git status
+   73  git commit -m "Aprendiendo a deshacer"
+   74  git log
+   75  ll -al
+   76  git reset HEAD script.py
+   77  git checkout -- script.py
+   78  touch init.py
+   79  touch requirements.txt
+   80  touch start.sh
+   81  git init
+   82  git status
+   83  git add .
+   84  git status
+   85  git commit -m "Commit Data Governance"
+   86  echo print ("Data Governance") >> requirements.txt 
+   87  echo "print ('Data Governance')" >> requirements.txt 
+   88  git status
+   89  git add .
+   90  git status
+   91  echo "echo 'Data Governance Team' " >> start.sh
+   92  git add .
+   93  git status
+   94  mkdir credentials
+   95  echo VANESSA NICOLE JAIME PAREDES >> init.py
+   96  git add .
+   97  git status
+   98  cd credentials
+   99  touch passwords.txt
+  100  git add .
+  101  touch.gitignore
+  102  touch .gitignore
+  103  edit .gitignore
+  104  git add .
+  105  git status
+  106  git commit -m "Creacion archivo .gitignored"
+  107  ls
+  108  git log
+  109  git reset HEAD init.py
+  110  git status
+  111  cd..
+  112  cd ..
+  113  git status
+  114  git reset HEAD init.py
+  115  git status
+  116  git log
+  117  git status
+  118  git add .
+  119  git status
+  120  git log
+  121  history
+  122  touch employees.txt
+  123  echo print "Juan Perez" >> employees.txt
+  124  echo "Maria Rojas"
+  125  git add .
+  126  git status
+  127  git status
+  128  git status
+  129  git add .
+  130  git status
+  131  git commit -m "Se creo el archivo employeesy se guardaron los cambios hechos"
+  132  git branch rrhh
+  133  git branch [rrhh]
+  134  git checkout -b rrhh
+  135  echo "Jorge Ramirez" >> employees.txt
+  136  git add .
+  137  git status
+  138  git commit -m "Se guardaron los cambios realizados"
+  139  git checkout master
+  140  git diff master rrhh
+  141  echo print "Jorge Ramirez" >> employees.txt
+  142  git add .
+  143  git status
+  144  git commit -m "Se guardaron los cambios realizados"
+  145  git checkout master
+  146  git diff master rrhh
+  147  git status
+  148  git add .
+  149  git commit -m "Se guardaron los cambios realizados"
+  150  git checkout master
+  151  git diff master rrhh
+  152  git merge master rrhh
+  153  alt text
+  154  git branch desarrollo
+  155  git checkout desarrollo
+  156  touch bloc1.txt
+  157  echo "Vanessa Jaime" >> bloc1.txt
+  158  cd ..
+  159  cd//Templates
+  160  c/Templates
+  161  cd Templates
+  162  git branch
+  163  git branch master
+  164  history
+  165  git remote add origin 
+  166  git remote add origin https://github.com/lk-geimfari/awesomo.git
+  167  git remote -v
+  168  git remote add origen https://github.com/lk-geimfari/awesomo.git
+  169  git remote -v
+  170  git remote rm origen
+  171  git remote -v
+  172  git clone https://github.com/VanessaJaime/auditoria_VNJP.git
+  173  git remote
+  174  git status
+  175  git add .
+  176  git push origin desarrollo
+  177  history
+  178  git clone ../Templates
+  179  git clone https://github.com/LightTable/LightTable.git
+  180  ls
+  181  git remote
+  182  cd LightTable/
+  183  git remote
+  184  ll
+  185  cd ..
+  186  git remote add origin https://github.com/reagent-project/reagent.git
+  187  git remote add origin https://github.com/eclipse/deeplearning4j.git
+  188  git remote add origin https://github.com/logseq/logseq.git
+  189  git clone https://github.com/logseq/logseq.git
+  190  ls
+  191  cd logseq/
+  192  git remote add origin https://github.com/logseq/logseq.git
+  193  git remote
+  194  ll
+  195  cd ..
+  196  cd LightTable/
+  197  git remote add origin https://github.com/kanaka/mal.git
+  198  git remote
+  199  git remote add origin 
+  200  git clone https://github.com/VanessaJaime/auditoria_VNJP.git
+  201  cd ..
+  202  git clone https://github.com/VanessaJaime/auditoria_VNJP.git
+  203  ls
+  204  cd auditoria_VNJP
+  205  git commit -m "Primer commit"
+  206  git push origin main
+  207  git push origin main
+  208  git clone https://github.com/VanessaJaime/auditoria_VNJP.git
+  209  ls
+  210  cd ..
+  211  git clone https://github.com/VanessaJaime/auditoria_VNJP.git
+  212  git clone https://github.com/VanessaJaime/auditoria_VNJP.git
+  213  git add .
+  214  ls
+  215  cd auditoria_VNJP
+  216  git status
+  217  git add .
+  218  git status
+  219  git commit -m "Primer commit"
+  220  git push origin main
+  221  git push origin main
+  222  git push origin main
+  223  history
+  224  ls
+  225  cd auditoria_VNJP
+  226  git status
+  227  git commit -m "Primer commit"
+  228  git push origin main
+  229  history
+  230  git clone https://github.com/VanessaJaime/Autonomo4_VNJP.git
+  231  ls
+  232  cd Autonomo4_VNJP/
+  233  touch Vanessa_Jaime.txt
+  234  echo "VNJP" >> Vanessa_Jaime.txt
+  235  git commit -m "Commit Data Quality"
+  236  git add .
+  237  git status
+  238  git commit -m "Commit Data Quality"
+  239  cd ..
+  240  echo print("Data Quality") >> requirements.txt
+  241  echo print ('Data Quality') >> requirements.txt
+  242  echo "print ('Data Quality')" >> requirements.txt
+  243  git status
+  244  git add .
+  245  git status
+  246  echo "Data Quality Team" >> start.sh
+  247  git add .
+  248  echo "Vanessa Jaime P." >> init.py
+  249  git add.
+  250  git add .
+  251  git add .
+  252  git status
+  253  git reset HEAD init.py
+  254  git add .
+  255  git status
+  256  git reset head init.py
+  257  git add .
+  258  git status
+  259  cd Autonomo4_VNJP/
+  260  git push origin main
+  261  cd ..
+  262  echo "Vanessa Jaime P." >> init.py
+  263  git reset HEAD init.py
+  264  git checkout -- init.py
+  265  git add .
+  266  git status
+  267  git branch dev
+  268  git branch ga
+  269  git checkout dev
+  270  touch stackeholders.txt
+  271  echo "Vanessa Jaime" >> stackeholders.txt
+  272  git checkout master
+  273  git checkout ga
+  274  touch rules.txt
+  275  echo "29-12-2021" >> rules.txt
+  276  git checkout master
+  277  git checkout ga
+  278  git merge ga dev -m "Merge 1"
+  279  git checkout master
+  280  git merge master ga -m "Merge 2"
+  281  git branch -a
+  282  git checkout -b master
+  283  git remote add origin https://github.com/VanessaJaime/Autonomo4_VNJP.git
+  284  git remote -v
+  285  git push origin master
+  286  git log
+  287  mkdir friend_project
+  288  cd friend_project
+  289  history >> git_commands.txt
+  290  git clone https://github.com/KennyBaque/lab4_audi.git
+  291  git add .
+  292  git push origin master
+  293  history >> git_commands.txt
+  294  cd..
+  295  cd ..
+  296  history >> git_commands.txt
+  297  git status
+  298  git add .
+  299  git push origin master
+  300  cd friend_project
+  301  git push origin master
+  302  git commit -m "Data Quality Commit"
+  303  git status
+  304  ls
+  305  git push origin master
+  306  cd ..
+  307  git init
+  308  git clone Qué es el “HEAD” en git?
+  309  git init
+  310  git clone https://github.com/fmerchanTecsu/ExamenIParcial.git
+  311  git checkout master
+  312  git fetch; git pull
+  313  git checkout -b vj/vanessa git push --set-upst
+  314  git push --set-upstream origin vj/vanessa
+  315  git init
+  316  git clone https://github.com/fmerchanTecsu/ExamenIParcial.git
+  317  git branch vanessa
+  318  cd ..
+  319  cd Examen1P
+  320  git push origin main
+  321  git status
+  322  git add .
+  323  git status
+  324  git branch vanessa
+  325  git checkout master
+  326  git branch master
+  327  cd ExamenIParcial
+  328  git branch vanessa
+  329  git checkout vanessa
+  330  cd examen 
+  331  ls
+  332  mv VANESSA_JAIME_PAREDES.html VANESSA_JAIME_PAREDES.txt
+  333  git status
+  334  git add .
+  335  git commit -m "Primera pregunta"
+  336  git add .
+  337  git commit -m "Segunda pregunta"
+  338  git add .
+  339  git commit -m "Tercera pregunta"
+  340  git add .
+  341  git commit -m "Cuarta pregunta"
+  342  git add .
+  343  git commit -m "Quinta pregunta"
+  344  git add .
+  345  git commit -m "Sexta pregunta"
+  346  git add .
+  347  git commit -m "Septima pregunta"
+  348  git add .
+  349  git commit -m "Octava pregunta"
+  350  git add .
+  351  git commit -m "Novena pregunta"
+  352  git add .
+  353  git commit -m "Decima pregunta"
+  354  git add .
+  355  git commit -m "Onceava pregunta"
+  356  history >> Vanessa.txt
