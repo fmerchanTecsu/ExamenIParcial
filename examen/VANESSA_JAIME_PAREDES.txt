@@ -57,7 +57,8 @@
                 </li>
                 <li>
                     <h3>Cuales son los pasos para conectar git con github?</h3>
-                    
+                    git config --globar user.name "nombre del usuario nuestro"
+                    git config --globar user.name "el email"
                 </li>                
             </ol>
         </div>        
