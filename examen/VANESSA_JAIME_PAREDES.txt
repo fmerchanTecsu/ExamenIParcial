@@ -34,7 +34,8 @@
                 </li>               
                 <li>
                     <h3>Qué es la auditoría de software?</h3>
-                    [Pon tu respuesta]
+                    Analiza los sistemas operativos de la empresa 
+		    para mejorarlos y actualizarlos.
                 </li>
                 <li>
                     <h3>Qué características considera importante para evaluar la facilidad de instalación de un software</h3>
